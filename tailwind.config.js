@@ -2,8 +2,13 @@
 module.exports = {
   content: ["./dist/index.html"],
   theme: {
-    extend: {},
+
+    extend: {
+      colors:['Light-Gray']
+      
+    },
   },
+  
   plugins: [],
 }
 
